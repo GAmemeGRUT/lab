@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float x, answer;
+    
+    printf("Введите значение: ");
+    scanf("%f", &x);
+    
+    answer = 32 * pow(x, 6);
+    
+    printf("Ответ: %.4f\n", answer);
+    
+    return 0;
+}
